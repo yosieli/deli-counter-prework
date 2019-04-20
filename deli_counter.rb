@@ -7,7 +7,7 @@ else
  # result= "the line is currently:#{index.to_i+1}.#{name}"
  
 end
-puts"the line is currently:#{index.to_i+1}.#{name}"
+
 end
 end
 def take_a_number(katz_deli,name)
