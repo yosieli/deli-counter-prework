@@ -11,9 +11,9 @@ def line(katz_deli)
   puts "#{message}"
   end 
 end 
-def take_a_number(katz_deli)
+def take_a_number(katz_deli,name)
   if katz_deli.length==0
-    katz_deli.push()
+    katz_deli.push(name)
     
   end
 end
