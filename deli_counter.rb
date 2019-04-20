@@ -1,14 +1,13 @@
 # Write your code here.
-def line(katz_deli)
-  if katz_deli.length ==0  
-  puts "The line is currently empty."
-else
-  katz_deli.each_with_index do |name,index|
- # result= "the line is currently:#{index.to_i+1}.#{name}"
- puts"the line is currently:#{index.to_i+1}.#{name}"
-end
-end
-end
-def take_a_number(katz_deli,name)
-  
-end
+def line(array) 
+  if array.length == 0 
+    puts "The line is currently empty."
+  else 
+    message = "The line is currently:"
+    
+  array.each_with_index do |value, index| 
+    message += " #{index.to_i+1}. #{value}"
+  end 
+  puts "#{message}"
+  end 
+end 
