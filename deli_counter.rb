@@ -6,7 +6,7 @@ else
   katz_deli.each_with_index do |name,index|
  # result= "the line is currently:#{index.to_i+1}.#{name}"
 end
-puts 
+puts"the line is currently:#{index.to_i+1}.#{name}"
 end
 end
 def take_a_number(katz_deli,name)
