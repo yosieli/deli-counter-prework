@@ -5,7 +5,7 @@ def line(katz_deli)
 else katz_deli.each_with_index do |index,name|
   result= "the line is currently:#{index.to_i+1}.#{name}"
 end
-puts result
+puts #{result}
 end
 end
 def take_a_number(katz_deli,name)
